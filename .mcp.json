@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "connector-proxy": {
+      "type": "http",
+      "url": "http://127.0.0.1:62630/mcp",
+      "description": "Aggregated proxy containing MCP servers: github, ima-mcp, synology"
+    }
+  }
+}
