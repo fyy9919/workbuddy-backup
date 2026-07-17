@@ -1,0 +1,86 @@
+{
+  "sandbox": {
+    "extraAllowWrite": [
+      "~/.tencent-cloudq",
+      "~/.andonq",
+      "~/.xiaoe-cloud",
+      "~/.config/wecom/",
+      "~/.lark-cli",
+      "~/.lark-channel/",
+      "~/.dws",
+      "/tmp/dws-cache",
+      "~/.tmeet",
+      "~/Library/Application Support/tmeet"
+    ]
+  },
+  "claw": {
+    "channels": {
+      "wechatmp": {
+        "enabled": true,
+        "connectionMode": "webhook"
+      }
+    },
+    "users": {
+      "0bb1f846-d3ab-48ca-94f7-35c7385ac7d8": {
+        "channels": {
+          "yuanbao": {
+            "enabled": true,
+            "channelId": "qewYMNACZTsgJGhbqr8ed9HaVWJwekQC",
+            "connectionMode": "websocket",
+            "appKey": "qewYMNACZTsgJGhbqr8ed9HaVWJwekQC",
+            "appSecret": "DfmwIXcdR2wSP1ZZuCoo9iGZIjFTsG8n"
+          },
+          "qq": {
+            "enabled": true,
+            "channelId": "1904338920",
+            "connectionMode": "scan",
+            "appId": "1904338920",
+            "appSecret": "QzZ9kLxaDrVApVCtbJ2lVG1nZM9xmbRH"
+          },
+          "feishu": {
+            "enabled": true,
+            "channelId": "cli_aabe69a2f1f8dbb7",
+            "connectionMode": "websocket",
+            "appId": "cli_aabe69a2f1f8dbb7",
+            "appSecret": "GU5SlAPVPNNkWDqxcxyE2g8kLGaxkMyL",
+            "encryptKey": "",
+            "verificationToken": "",
+            "customHost": "",
+            "replyPolicy": {
+              "mode": "all"
+            }
+          },
+          "wechatmp": {
+            "enabled": true,
+            "connectionMode": "webhook",
+            "artifactUploadEnabled": true
+          },
+          "weixinClawBot": {
+            "enabled": true,
+            "channelId": "df92f560221c@im.bot",
+            "botToken": "df92f560221c@im.bot:0600009107bb71488f5857b086ce8b97f9dc7c",
+            "baseUrl": "https://ilinkai.weixin.qq.com",
+            "accountId": "df92f560221c@im.bot",
+            "userId": "o9cq80_J9j7Y0OCMTy_Tyt6KiWVI@im.wechat",
+            "connectionMode": "polling"
+          }
+        }
+      },
+      "27e0a367-3547-4cf6-9e73-91152ca2d22d": {
+        "channels": {
+          "wechatmp": {
+            "enabled": true,
+            "connectionMode": "webhook",
+            "artifactUploadEnabled": true
+          }
+        }
+      }
+    },
+    "legacyOwnerUid": "0bb1f846-d3ab-48ca-94f7-35c7385ac7d8"
+  },
+  "enabledPlugins": {
+    "skill-creator@cb_teams_marketplace": false,
+    "data@cb_teams_marketplace": false,
+    "codebuddy-md-management@codebuddy-plugins-official": false
+  }
+}
